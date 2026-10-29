@@ -1,0 +1,21 @@
+[project]
+name = "coffee-exploration"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sstar691969", email = "91501606+sstar691969@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "notebook>=7.6.3",
+    "pandas>=3.1.0",
+]
+
+[project.scripts]
+coffee-exploration = "coffee_exploration:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
